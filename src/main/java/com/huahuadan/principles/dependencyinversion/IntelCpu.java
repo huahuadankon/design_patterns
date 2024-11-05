@@ -1,11 +1,6 @@
 package com.huahuadan.principles.dependencyinversion;
 
-/**
- * @version v1.0
- * @ClassName: IntelCpu
- * @Description: Intel cpu
- * @Author: 黑马程序员
- */
+
 public class IntelCpu implements Cpu {
 
     public void run() {

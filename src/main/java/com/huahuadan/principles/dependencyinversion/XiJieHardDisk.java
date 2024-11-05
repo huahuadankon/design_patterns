@@ -1,11 +1,6 @@
 package com.huahuadan.principles.dependencyinversion;
 
-/**
- * @version v1.0
- * @ClassName: XiJieHardDisk
- * @Description: 希捷硬盘
- * @Author: 黑马程序员
- */
+
 public class XiJieHardDisk implements HardDisk {
 
     //存储数据的方法

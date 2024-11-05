@@ -3,7 +3,7 @@ package com.itheima.pattern.singleton.demo1;
 /**
  * @version v1.0
  * @ClassName: Client
- * @Description: TODO(一句话描述该类的功能)
+ * @Description:
  * @Author: 黑马程序员
  */
 public class Client {

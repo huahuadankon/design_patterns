@@ -1,7 +1,9 @@
 package com.huahuadan.principles.Interfaceisolation;
 
 
-
+/**
+ * 应当为各个模块提供细化、专门的接口，避免依赖不需要的接口方法。
+ */
 
 public class Client {
     public static void main(String[] args) {

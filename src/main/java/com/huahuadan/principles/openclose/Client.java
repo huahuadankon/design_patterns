@@ -1,6 +1,8 @@
 package com.huahuadan.principles.openclose;
 
-
+/**
+ * 软件实体应当对扩展开放，对修改关闭，即在不修改已有代码的情况下，通过扩展实现新功能
+ */
 public class Client {
     public static void main(String[] args) {
         //1,创建搜狗输入法对象

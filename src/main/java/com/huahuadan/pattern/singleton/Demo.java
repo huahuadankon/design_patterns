@@ -30,7 +30,7 @@ public class Demo {
         System.out.println(s1 == s2); //如果返回的是true，说明并没有破坏单例模式，如果是false，说明破坏了单例模式*/
         //============================================================
         //writeObject2File();
-        readObjectFromFile();
+        /*readObjectFromFile();*/
         readObjectFromFile();
 
     }

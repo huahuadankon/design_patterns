@@ -1,6 +1,9 @@
 package com.huahuadan.principles.dimit;
 
-
+/**
+ * 迪米特法则（Law of Demeter，LoD），也称为最少知道原则，其核心思想是：
+ * 一个对象应当尽量少地了解其他对象的内部情况，只与直接相关的对象通信，避免对外部的复杂依赖。这样可以减少模块之间的耦合度，使系统更易于维护和扩展。
+ */
 public class Client {
     public static void main(String[] args) {
         //创建经纪人类

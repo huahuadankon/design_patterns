@@ -3,12 +3,12 @@ package com.huahuadan.pattern.iterator;
 import java.util.ArrayList;
 
 /**
- * Aggregate接口的作用与Iterator接口的
+ *
  */
 public class BookShelf implements Aggregate<Book> {
     private ArrayList<Book> books;
     public BookShelf(int initialsize) {         
-        this.books = new ArrayList<Book>(initialsize);
+        this.books = new ArrayList<>(initialsize);
     }                                           
 
     public Iterator iterator() {

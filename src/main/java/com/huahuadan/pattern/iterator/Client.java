@@ -11,7 +11,7 @@ public class Client {
         bookShelf.add(new Book("Frankenstein"));
         bookShelf.add(new Book("Gulliver's Travels"));
         bookShelf.add(new Book("Hamlet"));
-        Iterator it =  bookShelf.iterator();
+        Iterator it =  bookShelf.iterator();//返回一个迭代器接口的子实现类
         while (it.hasNext()) {
             Book book = (Book)it.next();
             System.out.println(book.getName());

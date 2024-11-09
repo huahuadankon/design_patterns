@@ -1,6 +1,8 @@
 package com.huahuadan.principles.dependencyinversion;
 
-
+/**
+ * 高层模块不应依赖低层模块，二者都应依赖于抽象层；抽象层不应依赖于具体实现，具体实现应依赖于抽象。
+ */
 public class Computer {
 
     private HardDisk hardDisk;
